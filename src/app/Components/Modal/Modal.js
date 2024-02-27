@@ -2,7 +2,7 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 
-const Modal = ({ isOpen, onClose, setOpenPrivacy, handleToggleModal }) => {
+const Modal = ({scrollToRef, isOpen, onClose, setOpenPrivacy, handleToggleModal }) => {
     const [userChoice, setUserChoice] = useState(null);
     const [activeModal, setActiveModal] = useState(false);
 
@@ -73,15 +73,25 @@ const Modal = ({ isOpen, onClose, setOpenPrivacy, handleToggleModal }) => {
                 <div className='h-[3px] opacity-90 w-[100%] bg-black mt-6'>
                 </div>
                 <ul className="flex flex-col lg:space-x-10 space-y-5 align-middle items-center mt-16 text-center  MADE_TOMMY_Regular_PERSONAL_USE">
-                    <li>
-                        <a href="/" className=" text-xl font-bold text-black hover:transform hover:scale-110 transform transition-transform duration-300">Home</a>
+                    <li onClick={() => scrollToRef('section1')}>
+                        <a href="/" target='_blank' className="text-xl text-black hover:transform hover:scale-110 transform transition-transform duration-300">How to buy</a>
                     </li>
                     <li>
-                        <a href="/" target='_blank' className="text-xl text-black hover:transform hover:scale-110 transform transition-transform duration-300">Chart</a>
+                        <a href="/" target='_blank' className="text-xl text-black hover:transform hover:scale-110 transform transition-transform duration-300">Tokenomics</a>
                     </li>
-                    <li className='flex justify-center items-center'>
-                        <div className="bg-[#EEB633] hover:scale-110 transition-transform duration-500 ease-in-out rounded-[15px] lg:text-base text-xs font-medium py-2 px-4 lg:px-8">
+                    <li>
+                        <a href="/" target='_blank' className="text-xl text-black hover:transform hover:scale-110 transform transition-transform duration-300">Roadmap</a>
+                    </li>
+                    <li>
+                        <a href="/" target='_blank' className="text-xl text-black hover:transform hover:scale-110 transform transition-transform duration-300">About</a>
+                    </li>
+                    <li className='flex gap-4 justify-center items-center'>
+                        <div className="bg-[#EEB633] text-black hover:scale-110 transition-transform duration-500 ease-in-out rounded-[15px] lg:text-base text-xs font-medium py-2 px-4 lg:px-8">
                             Buy Now
+                        </div>
+
+                        <div className="bg-[#EEB633] hover:scale-110 transition-transform duration-500 ease-in-out rounded-[15px] lg:text-base text-xs font-medium py-2 px-4 lg:px-8">
+                           Chart
                         </div>
                     </li>
                 </ul>

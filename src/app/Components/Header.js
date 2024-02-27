@@ -2,7 +2,7 @@
 import React from 'react'
 
 
-const Header = ({ handleToggleModal }) => {
+const Header = ({ scrollToRef, handleToggleModal }) => {
     return (
         <>
             <div className="lg:flex hidden items-center justify-between w-full lg:px-36 lg:py-6 px-4 py-4">
@@ -11,11 +11,20 @@ const Header = ({ handleToggleModal }) => {
                 </div>
 
                 <div className="flex justify-center items-center hover:scale-110 transition-transform duration-500 ease-in-out">
-                    <p className="lg:text-base text-xs font-medium ">Chart</p>
+                    <p onClick={() => scrollToRef('section1')} className="lg:text-base text-xs font-medium text-black">How to buy</p>
+                </div>
+                <div className="flex justify-center items-center hover:scale-110 transition-transform duration-500 ease-in-out">
+                    <p onClick={() => scrollToRef('section2')} className="lg:text-base text-xs font-medium text-black">Tokenomics</p>
+                </div>
+                <div className="flex justify-center items-center hover:scale-110 transition-transform duration-500 ease-in-out">
+                    <p onClick={() => scrollToRef('section3')} className="lg:text-base text-xs font-medium text-black">Roadmap</p>
+                </div>
+                <div className="flex justify-center items-center hover:scale-110 transition-transform duration-500 ease-in-out">
+                    <p onClick={() => scrollToRef('section4')} className="lg:text-base text-xs font-medium text-black">About</p>
                 </div>
 
                 <div className="flex justify-center items-center">
-                    <div className="bg-[#EEB633] hover:scale-110 transition-transform duration-500 ease-in-out rounded-[15px] lg:text-base text-xs font-medium py-2 px-4 lg:px-8">
+                    <div className="bg-[#EEB633] text-black hover:scale-110 transition-transform duration-500 ease-in-out rounded-[15px] lg:text-base text-xs font-medium py-2 px-4 lg:px-8">
                         Buy Now
                     </div>
                 </div>
