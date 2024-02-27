@@ -70,7 +70,7 @@ const Modal = ({ isOpen, onClose, setOpenPrivacy, handleToggleModal }) => {
                 <div className='flex flex-col justify-center align-middle items-center'>
                     <img src='Images/headerlogo.png' className='z-10 hover:transform hover:scale-110 hover:transition-transform hover:ease-in hover:duration-300 w-[200px]' ></img>
                 </div>
-                <div className='h-[1px] opacity-20 w-[90%] bg-white mt-6'>
+                <div className='h-[3px] opacity-90 w-[100%] bg-black mt-6'>
                 </div>
                 <ul className="flex flex-col lg:space-x-10 space-y-5 align-middle items-center mt-16 text-center  MADE_TOMMY_Regular_PERSONAL_USE">
                     <li>
