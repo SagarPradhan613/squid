@@ -3,7 +3,7 @@ const NewLanding = () => {
         <>
             <div className='flex my-6 lg:my-10 w-full flex-col justify-center items-center'>
                 <div className='w-full flex justify-center items-center'>
-                    <p className='font-medium text-3xl'>Squidward</p>
+                    <p className='font-medium text-black text-3xl'>Squidward</p>
 
                 </div>
                 <div className='lg:flex'>
@@ -54,7 +54,7 @@ const NewLanding = () => {
                             <img src='/Images/squidcoin.png' className='max-w-[100px]'></img>
                         </div>
                         <div className='flex flex-col pt-8 justify-center items-center'>
-                            <p className='font-medium text-3xl lg:text-6xl'>How To Buy $SQUID</p>
+                            <p className='font-medium text-3xl lg:text-6xl text-black'>How To Buy $SQUID</p>
                         </div>
 
                     </div>
@@ -150,7 +150,7 @@ const NewLanding = () => {
             </div>
             <div className='lg:mt-40 w-full mt-10 flex flex-col justify-center items-center '>
                 <div className='w-full flex justify-center items-center'>
-                    <p className='font-medium text-3xl lg:text-6xl '>Squidward Map</p>
+                    <p className='font-medium text-3xl lg:text-6xl text-black'>Squidward Map</p>
                 </div>
                 <div className='mt-6 mx-8 lg:mx-0 max-w-[590px] bg-[#EEB633] text-white flex flex-col justify-center items-start py-10 lg:py-16 pb-10 px-16 lg:px-28'>
                     <p className='font-medium lg:text-4xl text-2xl'>Pase 1 : Launch </p>
@@ -160,7 +160,7 @@ const NewLanding = () => {
             </div>
             <div className='lg:mt-40 w-full mt-10 flex flex-col justify-center items-center '>
                 <div className='w-full flex justify-center items-center'>
-                    <p className='font-medium text-3xl lg:text-6xl '>About</p>
+                    <p className='font-medium text-3xl lg:text-6xl text-black'>About</p>
                 </div>
                 <div className='mt-10 mx-8 lg:mx-0 bg-[white] max-w-[590px] text-black flex flex-col justify-center items-start py-10 lg:py-20 pb-10 px-16 lg:px-24'>
                     <p className='font-medium lg:text-lg text-lg'>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typefaceLorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface</p>
