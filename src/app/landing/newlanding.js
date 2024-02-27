@@ -125,7 +125,7 @@ const NewLanding = () => {
 
             </div>
             <div className='bg-white w-full mt-10 py-6 lg:mt-16 lg:py-10 flex lg:flex-row flex-col justify-center items-center'>
-                <div className='lg:flex justify-center items-center'>
+                <div className='lg:flex justify-center relative z-20 items-center mr-0 lg:-mr-[50px]'>
                     <img src='/Images/tokenomics.png' className='lg:max-h-[580px] max-h-[300px]'></img>
                 </div>
 
@@ -135,7 +135,7 @@ const NewLanding = () => {
                     </div>
 
 
-                    <div className='bg-[#EEB633] mx-3 lg:mx-0 lg:max-w-[700px] mt-10 px-8 py-6 lg:px-16 lg:py-16'>
+                    <div className='bg-[#EEB633] relative z-10 mx-3 lg:mx-0 lg:max-w-[700px] mt-10 px-8 py-6 lg:px-16 lg:py-16'>
                         <p className='font-medium text-white lg:text-4xl text-2xl'>Total supply</p>
                         <div className='flex gap-6 mt-4'>
                             <p className='text-white font-medium text-2xl lg:text-4xl'>100% </p>
