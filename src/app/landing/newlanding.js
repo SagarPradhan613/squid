@@ -144,7 +144,7 @@ const NewLanding = () => {
                             <p className='text-white font-medium text-2xl lg:text-4xl'>100% </p>
 
                             <div>
-                                <p className='font-normal text-base text-white lg:text-xl '>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typefaceLorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface</p>
+                                <p className='font-semibold text-base text-white lg:text-xl pridi'>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typefaceLorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface</p>
                             </div>
                         </div>
 
