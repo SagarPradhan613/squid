@@ -16,14 +16,17 @@
   }
 }
 
+@font-face {
+  font-family: Spongeboy;
+  src: url(/Fonts/Spongeboy.ttf);
+}
+
+
+
 body {
+  font-family: Spongeboy !important;
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+ background-color: #B4FFF1;
 }
 
 @layer utilities {
@@ -31,3 +34,4 @@ body {
     text-wrap: balance;
   }
 }
+
