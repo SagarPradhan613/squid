@@ -1,0 +1,17 @@
+@media screen and (min-width:1500px) {
+    .resp-height{
+        height: 277px !important;
+    }
+}
+
+@media screen and (min-width:1900px) {
+    .resp-margin{
+        margin-left: 3rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .resp-coin{
+        margin-left: 1.5rem;
+    }
+}

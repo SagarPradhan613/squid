@@ -1,3 +1,6 @@
+import './landing.css';
+
+
 const NewLanding = () => {
     return (
         <>
@@ -44,13 +47,13 @@ const NewLanding = () => {
             </div>
             <div className='lg:flex lg:mt-28 mt-20'>
 
-                <div className='flex justify-center items-center '>
+                <div className='flex justify-center items-center resp-margin'>
                     <img className='lg:max-w-[700px] max-w-[300px]' src='/Images/howtobuyhero.png'></img>
                 </div>
 
                 <div className='flex flex-col justify-center items-center'>
-                    <div className='w-full flex flex-col lg:flex-row items-center justify-center gap-6'>
-                        <div className='flex flex-col justify-center items-center'>
+                    <div className='w-full flex flex-row items-center justify-center gap-6'>
+                        <div className='flex flex-col resp-coin justify-center items-center'>
                             <img src='/Images/squidcoin.png' className='max-w-[100px]'></img>
                         </div>
                         <div className='flex flex-col pt-8 justify-center items-center'>
@@ -59,22 +62,22 @@ const NewLanding = () => {
 
                     </div>
                     <div className='lg:px-20 px-10'>
-                        <div className='lg:flex bg-[#EEB633] lg:min-h-[277px]  mt-16 px-10 lg:px-12 py-8 lg:py-10 '>
+                        <div className='lg:flex bg-[#EEB633] lg:min-h-[277px] resp-height  mt-16 px-10 lg:px-12 py-8 lg:py-10 '>
                             <div className='h-full flex justify-center items-center lg:pt-4'>
                                 <img className='lg:max-w-[147px] max-w-[100px]' src='/Images/Wallet.png'></img>
                             </div>
 
                             <div className='flex flex-col justify-center items-center lg:w-[70%] mt-6 lg:mt-0 ml-0 lg:ml-16'>
                                 <p className='font-medium text-4xl text-white'>Make Wallet</p>
-                                <ul className='list-disc mt-6'>
-                                    <li className='font-medium text-lg text-white'>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface</li>
+                                <ul className='list-disc mt-6 pridi'>
+                                    <li className='font-semibold text-lg text-white'>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface</li>
                                 </ul>
 
                             </div>
 
                         </div>
 
-                        <div className='lg:flex bg-[#EEB633] lg:min-h-[277px] mt-16 px-10 lg:px-12 py-8 lg:py-10 '>
+                        <div className='lg:flex bg-[#EEB633] lg:min-h-[277px] resp-height mt-16 px-10 lg:px-12 py-8 lg:py-10 '>
                             <div className='h-full flex justify-center items-center '>
                                 <img className='lg:max-w-[147px] max-w-[100px]' src='/Images/eth.png'></img>
                             </div>
@@ -82,14 +85,14 @@ const NewLanding = () => {
                             <div className='flex flex-col justify-center items-center lg:w-[70%] mt-6 lg:mt-0 ml-0 lg:ml-16'>
                                 <p className='font-medium text-4xl text-white'>Get Eth</p>
                                 <ul className='list-disc mt-6'>
-                                    <li className='font-medium text-lg text-white'>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface</li>
+                                    <li className='font-semibold pridi text-lg text-white'>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface</li>
                                 </ul>
 
                             </div>
 
                         </div>
 
-                        <div className='lg:flex bg-[#EEB633] lg:min-h-[277px] mt-16 px-10 lg:px-12 py-8 lg:py-10 '>
+                        <div className='lg:flex bg-[#EEB633] lg:min-h-[277px] resp-height mt-16 px-10 lg:px-12 py-8 lg:py-10 '>
                             <div className='h-full flex justify-center items-center '>
                                 <img className='lg:max-w-[147px] max-w-[100px]' src='/Images/uniswap.png'></img>
                             </div>
@@ -97,14 +100,14 @@ const NewLanding = () => {
                             <div className='flex flex-col justify-center items-center lg:w-[70%] mt-6 lg:mt-0 ml-0 lg:ml-16'>
                                 <p className='font-medium text-4xl text-white'>Go to Uniswap</p>
                                 <ul className='list-disc mt-6'>
-                                    <li className='font-medium text-lg text-white'>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface</li>
+                                    <li className='font-semibold pridi text-lg text-white'>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface</li>
                                 </ul>
 
                             </div>
 
                         </div>
 
-                        <div className='lg:flex bg-[#EEB633] lg:min-h-[277px] mt-16 px-10 lg:px-12 py-8 lg:py-10 '>
+                        <div className='lg:flex bg-[#EEB633] lg:min-h-[277px] resp-height mt-16 px-10 lg:px-12 py-8 lg:py-10 '>
                             <div className='h-full flex justify-center items-center '>
                                 <img className='lg:max-w-[147px] max-w-[100px] lg:mt-6' src='/Images/squidcoin.png'></img>
                             </div>
@@ -112,7 +115,7 @@ const NewLanding = () => {
                             <div className='flex flex-col justify-center items-center lg:w-[70%] mt-6 lg:mt-0 ml-0 lg:ml-16'>
                                 <p className='font-medium text-4xl text-white'>Swap</p>
                                 <ul className='list-disc mt-6'>
-                                    <li className='font-medium text-lg text-white'>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface</li>
+                                    <li className='font-semibold pridi text-lg text-white'>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface</li>
                                 </ul>
 
                             </div>
@@ -162,8 +165,8 @@ const NewLanding = () => {
                 <div className='w-full flex justify-center items-center'>
                     <p className='font-medium text-3xl lg:text-6xl text-black'>About</p>
                 </div>
-                <div className='mt-10 mx-8 lg:mx-0 bg-[white] max-w-[590px] text-black flex flex-col justify-center items-start py-10 lg:py-20 pb-10 px-16 lg:px-24'>
-                    <p className='font-medium lg:text-lg text-lg'>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typefaceLorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface</p>
+                <div className='mt-10 mx-8 lg:mx-0 bg-[white] max-w-[590px] text-black flex flex-col justify-center text-center items-start py-10 lg:py-20 pb-10 px-16 lg:px-24'>
+                    <p className='font-semibold lg:text-xl text-lg pridi'>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typefaceLorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface</p>
                 </div>
                 <div className='flex mt-36 w-full justify-center items-center'>
                     <img src='/Images/finalimg.png' className="lg:max-w-[676px] max-w-[300px]"></img>

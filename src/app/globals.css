@@ -21,7 +21,14 @@
   src: url(/Fonts/Spongeboy.ttf);
 }
 
+@font-face {
+  font-family: Pridi-Regular;
+  src: url(/Fonts/Pridi-Regular.ttf);
+}
 
+.pridi{
+  font-family: Pridi-Regular !important;
+}
 
 body {
   font-family: Spongeboy !important;
