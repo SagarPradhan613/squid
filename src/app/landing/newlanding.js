@@ -153,7 +153,7 @@ const NewLanding = ({ section1Ref, section2Ref, section3Ref, section4Ref })  => 
                             <p className='text-white font-medium text-2xl lg:text-4xl'>100% </p>
 
                             <div>
-                                <p className='font-semibold text-base text-white lg:text-xl pridi'>tokens into LP & 5% small buy and sell taxes. Fill your bags to meet Mr. Squidward on the other side of the moon!</p>
+                                <p className='font-semibold text-base text-white lg:text-xl pridi'>tokens into LP. ERC20 token with 5% small buy/sell taxes. Fill your bags and join the squidward community to meet Mr. Squidward on the other side of the moon!</p>
                             </div>
                         </div>
 
